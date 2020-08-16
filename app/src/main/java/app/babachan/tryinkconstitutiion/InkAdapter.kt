@@ -1,6 +1,10 @@
 package app.babachan.tryinkconstitutiion
 
 import android.content.Context
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import android.widget.TextView
 
 class InkAdapter(
 
@@ -53,12 +57,12 @@ RealmRecyclerViewAdapter<Ink, InkAdapter.ViewHolder>(inkList, autoUpdate) {
 //    }
 
 
-    class ViewHolder(val view: View) : RecyclerView.ViewHolder(view) {
-        val nameTextView: TextView = view.findViewById(R.id.makerName)
-        val colorTextView: TextView = view.findViewById(R.id.inkColor)
-        val thickTextView: TextView = view.findViewById(R.id.thickness)
-        val numberTextView: TextView = view.findViewById(R.id.stock)
-        val frequencyTextView: TextView = view.findViewById(R.id.speed)
-
-    }
+//    class ViewHolder(val view: View) : RecyclerView.ViewHolder(view) {
+//        val nameTextView: TextView = view.findViewById(R.id.makerName)
+//        val colorTextView: TextView = view.findViewById(R.id.inkColor)
+//        val thickTextView: TextView = view.findViewById(R.id.thickness)
+//        val numberTextView: TextView = view.findViewById(R.id.stock)
+//        val frequencyTextView: TextView = view.findViewById(R.id.speed)
+//
+//    }
 }
