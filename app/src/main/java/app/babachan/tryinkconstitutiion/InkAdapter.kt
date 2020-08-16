@@ -5,6 +5,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+import io.realm.OrderedRealmCollection
+import io.realm.RealmRecyclerViewAdapter
 
 class InkAdapter(
 
