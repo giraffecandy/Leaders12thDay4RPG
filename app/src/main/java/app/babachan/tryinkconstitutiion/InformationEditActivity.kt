@@ -1,9 +1,14 @@
 package app.babachan.tryinkconstitutiion
 
 import android.app.Activity
+import android.content.Intent
 import android.os.Bundle
+import android.view.View
+import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import android.widget.Spinner
+import kotlinx.android.synthetic.main.activity_information_edit.*
+import java.util.*
 
 class InformationEditActivity: Activity() {
 
