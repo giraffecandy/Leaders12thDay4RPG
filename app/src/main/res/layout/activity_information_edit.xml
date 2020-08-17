@@ -11,7 +11,7 @@
     tools:context=".InformationEditActivity">
 
     <TextView
-        android:id="@+id/makerName"
+        android:id="@+id/makerNameMain"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="56dp"
@@ -27,7 +27,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/inkColor"
+        android:id="@+id/inkColorMain"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="56dp"
@@ -40,7 +40,7 @@
         app:layout_constraintTop_toBottomOf="@+id/makerNameEditText" />
 
     <TextView
-        android:id="@+id/thickness"
+        android:id="@+id/thicknessMain"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="56dp"
@@ -53,7 +53,7 @@
         app:layout_constraintTop_toBottomOf="@+id/spinner2" />
 
     <TextView
-        android:id="@+id/stock"
+        android:id="@+id/stockMain"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="56dp"
@@ -67,7 +67,7 @@
         app:layout_constraintTop_toBottomOf="@+id/thicknessEditText" />
 
     <TextView
-        android:id="@+id/speed"
+        android:id="@+id/speedMain"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="56dp"
@@ -122,7 +122,7 @@
         android:textColor="@color/colorAccent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/makerName" />
+        app:layout_constraintTop_toBottomOf="@+id/makerNameMain" />
 
     <Spinner
         android:id="@+id/spinner2"
@@ -133,7 +133,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/inkColor" />
+        app:layout_constraintTop_toBottomOf="@+id/inkColorMain" />
 
     <EditText
         android:id="@+id/thicknessEditText"
@@ -147,7 +147,7 @@
         android:text="0.5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/thickness" />
+        app:layout_constraintTop_toBottomOf="@+id/thicknessMain" />
 
     <EditText
         android:id="@+id/stockEditText"
@@ -161,7 +161,7 @@
         android:text="0"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/stock" />
+        app:layout_constraintTop_toBottomOf="@+id/stockMain" />
 
     <Spinner
         android:id="@+id/spinner"
@@ -172,7 +172,7 @@
         android:entries="@array/list"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/speed" />
+        app:layout_constraintTop_toBottomOf="@+id/speedMain" />
 
 
 

@@ -7,6 +7,7 @@ import android.view.View
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import android.widget.Spinner
+import io.realm.Realm
 import kotlinx.android.synthetic.main.activity_information_edit.*
 import java.util.*
 
